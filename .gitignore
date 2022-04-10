@@ -1,18 +1,34 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Cache objects
+packer_cache/
 
-# Other files and folders
-.settings/
+# Crash log
+crash.log
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# For built boxes
+*.box
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temp
+tmp/**
+output/**
+artifacts/**
+
+# PSAppDeployToolkit
+PSAppDeployToolkit/PSAppDeployToolkit.pdf
+PSAppDeployToolkit/Examples/**
+PSAppDeployToolkit/CHANGELOG.txt
+PSAppDeployToolkit/LICENSE.txt
+PSAppDeployToolkit/Toolkit/Files/**
+
+# Package temp files
+scripts/Temp.json
+*.ico
