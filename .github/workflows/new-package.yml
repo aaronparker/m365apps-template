@@ -21,11 +21,11 @@ on:
       tenantid:
         description: Target Azure tenant ID.
         required: false
-        default: "stealthpuppylab.onmicrosoft.com"
+        default: "contoso.onmicrosoft.com"
       clientid:
         description: "Application ID of the app registration."
         required: false
-        default: "97dbddc1-4cd2-48ae-8c2a-1f21faba4b8b"
+        default: "67dbedc1-4cd2-38be-8c2a-1f21faba4b8d"
       clientsecret:
         description: "Client secret to enable authentication."
         required: false
